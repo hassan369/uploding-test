@@ -1,0 +1,77 @@
+﻿.auto-style1 {
+    width: 100%;
+}
+
+.auto-style2 {
+    width: 841px;
+}
+
+.auto-style3 {
+    width: 119px;
+}
+
+.auto-style4 {
+    width: 841px;
+    height: 26px;
+}
+
+.auto-style5 {
+    width: 119px;
+    height: 26px;
+}
+
+.auto-style6 {
+    height: 26px;
+}
+
+.main-div {
+    display: flex;
+    justify-content: center;
+    border: 1px solid green;
+}
+
+.inner-div {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    border: 1px solid red;
+    padding: 5px;
+}
+
+.question-row {
+    width: 100%;
+    border: 1px solid yellow;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.question-text {
+    width: 68%;
+    border: 1px solid black;
+}
+
+.question-edit, .question-delete {
+    width: 14%;
+    border: 1px solid gray;
+}
+
+.quesstions-buttons{
+    padding:8px 20px;
+    color:white;
+    font-size:1.5rem;
+    
+}
+.quesstions-buttons-orange {
+    background-color: orange;
+}
+.quesstions-buttons-red {
+    background-color: red;
+}
+.txtQuesstion{
+    display:none;
+}
+.btn-update{
+   display:none;
+}
